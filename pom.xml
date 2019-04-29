@@ -19,7 +19,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <dockermavenplugin.version>0.23.0</dockermavenplugin.version>
+        <dockermavenplugin.version>0.30.0</dockermavenplugin.version>
         <!-- Properties for mysql database docker container -->
         <docker.image.mysql>mysql:5.5.57</docker.image.mysql>
         <docker.image.mysql.database>car</docker.image.mysql.database>
@@ -113,6 +113,7 @@
                                             <time>16000</time>
                                         </wait>
                                     </run>
+
                                 </image>
                             </images>
                         </configuration>
